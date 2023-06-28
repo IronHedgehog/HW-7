@@ -1,22 +1,35 @@
+:root {
+  --headings-color: #212121;
+  --accent-color: green;
+  --headings-color: #212121;
+  --accent-color: green;
+  --headings-color: #212121;
+  --accent-color: green;
+  --headings-color: #212121;
+  --accent-color: green;
+  --headings-color: #212121;
+  --accent-color: green;
+}
+
 a {
   color: aqua;
 }
 
 .link {
-  color: red;
+  color: var(--accent-color);
 }
 
 /* Початок */
 a[href^="https"] {
-  color: red;
+  color: var(--accent-color);
 }
 /* Середина */
 a[href*="youTube"] {
-  color: red;
+  color: var(--accent-color);
 }
 /* Кінець */
 a[href$=".com/"] {
-  color: red;
+  color: var(--accent-color);
 }
 
 .list + p {
